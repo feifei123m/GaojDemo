@@ -4,6 +4,9 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author changfei
+ */
 public class BlockingQueueDemo {
 
     public static void main(String[] args) throws InterruptedException {
