@@ -6,11 +6,11 @@ public class ThreadPoolExecutorDemo {
 
     public static void main(String[] args) {
         // 固定线程数为5的线程池
-        //ExecutorService fixedThreadPool = Executors.newFixedThreadPool(5);
+        ExecutorService fixedThreadPool = Executors.newFixedThreadPool(5);
         // 单线程的线程池
-        //ExecutorService newSingleThreadExecutor = Executors.newSingleThreadExecutor();
+        ExecutorService newSingleThreadExecutor = Executors.newSingleThreadExecutor();
         // 多线程的线程池
-        //ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
+        ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
         // 一般要手动创建一个线程池,上面三种线程池可能会造成oom
         /**
          * 拒绝策略：
